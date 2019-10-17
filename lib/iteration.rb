@@ -76,7 +76,7 @@ def total_even_pairs(src)
     if numbers[0] % 2 == 0 && numbers[1] % 2 == 0
       sum = numbers[0] + numbers[1]
     end
-    total += sum
+    
   end
   
   total
