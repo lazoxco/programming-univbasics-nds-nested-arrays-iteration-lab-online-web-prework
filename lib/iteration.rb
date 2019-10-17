@@ -43,7 +43,7 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   
   src.each do |numbers|
-    
+    if numbers[0] > numbers[1]
   end 
 end
 
