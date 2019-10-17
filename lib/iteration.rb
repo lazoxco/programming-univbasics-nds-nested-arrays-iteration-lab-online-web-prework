@@ -25,7 +25,7 @@ def join_ingredients(src)
   # string_array
   
   src.each do |food|
-    puts "This is #{food}"
+    
   end
 end
 
