@@ -51,6 +51,8 @@ def find_greater_pair(src)
       large_nums << numbers[1]
     end
   end 
+  
+  large_nums
 end
 
 def total_even_pairs(src)
