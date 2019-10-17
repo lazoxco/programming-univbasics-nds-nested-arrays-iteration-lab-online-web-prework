@@ -44,13 +44,13 @@ def find_greater_pair(src)
   
   large_nums = []
   
-  src.each do |numbers|
-    if numbers[0] > numbers[1]
-      large_nums << numbers[0]
-    else 
-      large_nums << numbers[1]
-    end
-  end 
+  # src.each do |numbers|
+  #   if numbers[0] > numbers[1]
+  #     large_nums << numbers[0]
+  #   else 
+  #     large_nums << numbers[1]
+  #   end
+  # end 
   
   large_nums
 end
