@@ -24,6 +24,8 @@ def join_ingredients(src)
   # end
   # string_array
   
+  string_array = []
+  
   src.each do |food|
     
   end
