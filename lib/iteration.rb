@@ -42,8 +42,14 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+  large_nums = []
+  
   src.each do |numbers|
     if numbers[0] > numbers[1]
+      large_nums << numbers[0]
+    else 
+      large_nums << numbers[1]
+    end
   end 
 end
 
