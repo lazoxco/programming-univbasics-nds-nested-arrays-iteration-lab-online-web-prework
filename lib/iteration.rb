@@ -26,10 +26,15 @@ def join_ingredients(src)
   
   string_array = []
   
+  
+  
   src.each do |food|
-    
+    string_array << "I love #{food[][]} and ##{food[][]} on my pizza"
   end
+  
+  string_array
 end
+
 
 # join_ingredients(ingredients_array)
 
