@@ -56,7 +56,7 @@ def find_greater_pair(src)
   #   large_nums << numbers.max
   # end
   
-  src.each {|numbers| large_nums << numbers.max}
+  src.each { |numbers| large_nums << numbers.max }
   
   large_nums
 end
