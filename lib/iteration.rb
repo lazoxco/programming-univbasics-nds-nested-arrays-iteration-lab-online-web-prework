@@ -80,7 +80,7 @@ def total_even_pairs(src)
   # end
   
   src.each do |numbers|
-    if numbers[0].even && numbers[1].even
+    if numbers[0].even? && numbers[1].even?
       total += numbers[0] + numbers[1]
     end
   end
