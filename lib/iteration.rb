@@ -73,7 +73,7 @@ def total_even_pairs(src)
   total = 0 
   
   src.each do |numbers|
-    if numbers[0] % 2 && numbers[1]
+    if numbers[0] % 2 && numbers[1] % 2
       total = numbers[0] + numbers[1]
     end
   end
